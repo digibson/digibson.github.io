@@ -1,5 +1,95 @@
 /*NAV STYLES*/
+/* Set navbar minimum height, remove background color and bottom border */
+/* Use margin bottom to space content further down page */
+/* Navbar-colapse to remove bottom line when hamburger toggled */
+.navbar, .navbar-collapse {
+	min-height:50px !important;
+	background-color: transparent;
+	border: 0px;
+	margin-bottom: 20px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	
+}
 
+/* Force navbar brand into the center and set the width and background color*/
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 280px;
+    text-align: center;
+    background-color: transparent;
+	font-size: 32px;
+	color: #555 !important;
+}
+
+.navbar li {
+    text-align: center;
+	background-color: transparent;	
+	margin: 0px;
+	font-size: 22px;
+}
+
+/* Adjust height of navbar elements */
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:20px !important; padding-bottom:10 !important;
+    height: 50px;
+	color: #555 !important;
+}
+
+.navbar li a:hover, .navbar li a:focus {
+	color: #111 !important;
+}
+
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -140px;
+}
+
+/* Media query set for non-mobile devices */
+@media screen and (min-width:768px){
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+	/* set offset for lefthand links*/
+	.nav-left-lnk {
+		left: -140px;
+	}
+
+	/* set offset for righthand links*/
+	.nav-right-lnk {
+		left: 140px;
+	}
+	
+	/* set details for positioning of navbar links*/
+	.navbar li {
+		position: relative;
+        display: block;
+        width: 90px;
+		margin: 10px 2px 2px 2px;
+		border-bottom: 2px solid #999;
+	}
+
+	.navbar li a {
+		padding: 0px;
+	}
+
+	/* Set orange border for active and hover */
+	.navbar li:hover, .navbar li:focus, .navbar li.act {
+		border-bottom: 4px solid #ffbb44;
+		margin-bottom: 0px;
+	}	
+	.collapse {
+		margin-bottom: 0px;
+	}
+	
+}
 
 /*BLOG STYLES*/
 
