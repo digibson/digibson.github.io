@@ -1,0 +1,29 @@
+//NAV STYLES
+
+
+//BLOG STYLES
+
+.blog-content p {
+	font-family:	'Open Sans Condensed', sans-serif; 
+	font-size: 		18px;
+	font-weight: 	300;
+	text-align: 	justify;
+}
+
+.blog-content h1, h2, h3, h4, h5, h6 {
+	font-family: 	'Amatic SC', cursive; 
+	font-weight: 	700; 
+}
+
+.blog-content h1 {
+	font-size: 36px;
+	margin-bottom:	0px;
+	margin-top:		0px;
+}
+
+.blog-content h3 {
+	font-size: 		24px;
+	margin-top:		4px;
+	margin-bottom:	12px;
+}
+
